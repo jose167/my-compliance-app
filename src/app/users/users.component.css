@@ -1,0 +1,46 @@
+.user-container {
+    width: 50%;
+    margin: auto;
+    box-shadow: 0 2px 5px rgba(138, 108, 108, 0.26);
+    color: #6f6868;
+    background-color: white;
+    max-width: 900px;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th {
+    background-color: #dcdcdc2e;
+    color: black;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 12px;
+  }
+
+  tr.selected {
+    background-color: #f5f5dc5e;
+}
+.header{
+  padding: 10px;
+}
+
+h1{
+  font-size: 20px;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+
+  .user-container {
+    margin: unset;
+    border: unset;
+    width: 100%;
+    padding: 40px;
+  }
+}

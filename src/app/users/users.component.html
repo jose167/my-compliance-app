@@ -1,0 +1,25 @@
+<div class="main-container">
+  <app-user-detail [user]="selectedUser"  (voted)="onVoted($event)"></app-user-detail>
+  <div class="user-container">
+    <div class="header">
+      <h1>User Information</h1>
+    </div>
+
+  <table>
+      <tr>
+        <th *ngFor="let col of columns">
+          {{col}}
+        </th>
+      </tr>
+      <tr *ngFor="let user of users" 
+          (click)="onSelect(user)"
+          [class.selected]="user === selectedUser"> 
+        <td *ngFor="let label of labels">
+          {{user[label]}}
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+

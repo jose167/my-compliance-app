@@ -1,0 +1,75 @@
+{
+    "users": [
+    {
+        "id": "1",
+        "name": "Peter Dinklacount",
+        "acountNumber": "45444",
+        "country": "England",
+        "vote": 0,
+        "dateJoined": "21 Feb 2018", 
+        "emailAddress": "Peter@gmail.com",
+        "postCode": "1 Ocean Drive, Usa",
+        "phoneNumber": "1800 123 12 33",
+        "favouriteBand": "The Rolling Stone",
+        "numberOfPost": [210, 580, 770, 800, 810]
+        
+    },
+    {
+        "id": "2",
+        "name": "Lina Heady",
+        "acountNumber": "44443",
+        "country": "Ireland",
+        "dateJoined": "17 Jan 2000", 
+        "vote": 0,
+        "emailAddress": "lina@gmail.com",
+        "postCode": "41 Dublin",
+        "phoneNumber": "1800 123 12 33",
+        "favouriteBand": "Metallica",
+        "numberOfPost": [210, 580, 770, 800, 810]
+        
+    },
+    {
+        "id": "3",
+        "name": "Emilia Clarke",
+        "acountNumber": "30566",
+        "country": "Scotland",
+        "vote": 0,
+        "dateJoined": "15 May 1999", 
+        "emailAddress": "Emili@gmail.com",
+        "postCode": "88 Edinburg",
+        "phoneNumber": "1800 123 12 33",
+        "favouriteBand": "Incubus",
+        "numberOfPost": [210, 580, 770, 800, 810]
+        
+    },
+    {
+        "id": "4",
+        "name": "Kit Harrington",
+        "acountNumber": "30000",
+        "country": "France",
+        "vote": 0,
+        "dateJoined": "07 July 2019", 
+        "emailAddress": "kit@gmail.com",
+        "postCode": "55 Paris",
+        "phoneNumber": "1800 123 12 33",
+        "favouriteBand": "Blue Blue blue",
+        "numberOfPost": [210, 580, 770, 800, 810]
+       
+    },
+    {
+        "id": "5",
+        "name": "Sean Bean",
+        "acountNumber": "50000",
+        "country": "Germany",
+        "dateJoined": "08 Sep 2002", 
+        "vote": 0,
+        "emailAddress": "Sean@gmail.com",
+        "postCode": "66 Berlin",
+        "phoneNumber": "1800 123 12 33",
+        "favouriteBand": "Los Ramones",
+        "numberOfPost": [210, 580, 770, 800, 810]
+        
+    }]
+}
+
+ 

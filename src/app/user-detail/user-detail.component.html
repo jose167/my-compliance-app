@@ -1,0 +1,13 @@
+<div class="detail-container" *ngIf="user">
+  <div  class="text-container" >
+    <h2>{{user.name }} </h2>
+        <p><span class="columns-details"> {{ columns[0]}}: </span><span class="labels-details">{{ user.emailAddress}}</span></p>
+        <p><span class="columns-details"> {{ columns[1]}}: </span><span class="labels-details">{{ user.postCode}}</span></p>
+        <p><span class="columns-details"> {{ columns[2]}}: </span><span class="labels-details">{{ user.phoneNumber}}</span></p>
+        <p><span class="columns-details"> {{ columns[3]}}: </span><span class="labels-details">{{ user.favouriteBand}}</span></p>
+        <button (click)="vote(user.id)" class="btn">vote now!</button>
+  </div> 
+  <app-bar-chart></app-bar-chart>
+</div>    
+
+
