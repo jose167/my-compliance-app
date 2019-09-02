@@ -4,9 +4,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Json Services 
 
-I am using one package called "json-server" for this project. Run json-server --watch <path>data/dbUser.json 
---port 4000 <br />
-Find the path of dbUser.json in your local enviroment 
+I am using one package called "json-server" for this project. <br />
+npm install -g json-server <br />
+Then run:  <br/>
+json-server --watch <path>data/dbUser.json --port 4000 <br />
+
+note:Find the path of dbUser.json in your local enviroment 
 
 ## Development server
 
